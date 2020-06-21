@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.progress-container{
+    width: 100%;
+    height: 8px;
+    background-color: gray;
+}
+
+.progress-bar{
+    height: 8px;
+    background-color: darkgoldenrod;
+    width: 0%;
+}
+
+.jumbotron h5 {
+    color: dodgerblue;
+}
+
+.main_wrapper {
+    height: 200px; 
+    background-image: url(https://zadar.ahautomobili.hr/@@poi.imageproxy/91a3f5b47660400686cde044ebc50803/feb1a0fd-d85b-4030-a3b9-b7ad5ff68209.jpeg/rootimg1x);
+    opacity: 0.9; 
+    background-position: center; 
+}
+
+.nav-tabs {
+    margin-top: -43px !important;
+    position: relative;
+}
+
+.tab1 a, .tab2  a{
+    color: white !important;
+    background-color: dodgerblue;
+    opacity: 0.6;
+}
+
+.tab1 >a.active, .tab2 >a.active {
+    border-bottom: 2px solid darkcyan !important;
+    opacity: 1.0 !important; 
+    background-color: dodgerblue !important;
+}
+
+.fake-img{
+    background-color: gray;
+    height: 200px;
+}
+
+.fake-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.one_personal_vehicle {
+    cursor: pointer;
+}
+
+.one_personal_vehicle span {
+    font-size: 14px;
+    color: cyan;
+}
+
+.one_commercial_vehicle {
+    cursor: pointer;
+}
+
+.one_commercial_vehicle span {
+    font-size: 14px;
+    color: cyan;
+}
+
+#no_vehicles {
+    color: red;
+}
+
+footer a {
+    color: white;
+    opacity: 0.7;
+    margin-right: 2%;
+}
+
+footer a:hover {
+    color: white;
+    opacity: 1.0;
+}
+
+.footer-bottom p{
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.footer-bottom p span {
+    color: darkblue;
+}

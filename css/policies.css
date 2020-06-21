@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron h5 {
+    color: dodgerblue;
+}
+
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.wrapper img {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+
+i {
+    color: dodgerblue;
+}
+
+footer a {
+    color: white;
+    opacity: 0.7;
+    margin-right: 2%;
+}
+
+footer a:hover {
+    color: white;
+    opacity: 1.0;
+}
+
+.footer-bottom p {
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.footer-bottom p span {
+    color: darkblue;
+}
+
+
+@media screen and(max-width: 768px) {
+    .wrapper {
+        height: auto;
+    }
+
+    .wrapper h1 {
+        font-size: 14px !important;
+    }
+}

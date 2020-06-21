@@ -1,0 +1,20 @@
+#images {
+    position: relative;
+    display: inline-block;
+}
+
+#images img.cars {
+    width: 140px;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#images img.close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
